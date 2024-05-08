@@ -1,0 +1,27 @@
+header {
+  height: 100px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid black;
+  display: flex;
+}
+
+span:first-child {
+  margin-right: 100px;
+}
+
+img {
+  width: 150px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Cabin, sans-serif;
+}
+
+.lang {
+  width: 200px;
+  text-align: right;
+}

@@ -1,0 +1,91 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .divInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .inpDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #fullName {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+  }
+  #email {
+    margin-left: 84px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+  }
+  #telePhone {
+    margin-left: 38px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+  }
+  #address {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+  }
+  .inputDiv {
+    display: flex;
+  }
+  .mainGender {
+    display: flex;
+    margin-left: -120px;
+    margin-top: 7px;
+  }
+  #save {
+    margin-left: 94px;
+  }
+  #male {
+    margin-left: 72px;
+  }
+  .saveButton {
+    height: 28px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid rgb(155, 153, 132);
+    text-align: center;
+  }
+  .mainTable {
+    margin-top: 20px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .divForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #errorName {
+    display: none;
+  }
+  #errorEmail {
+    display: none;
+  }
+  #errorAddress {
+    display: none;
+  }
